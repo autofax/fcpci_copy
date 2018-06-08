@@ -21,6 +21,8 @@
  */
 
 #include <stdarg.h>
+#include <linux/thread_info.h> /* ergaenzt G.Schade 8.6.18 */
+#include <linux/sched.h> /* ergaenzt G.Schade 8.6.18 */
 #include <asm/uaccess.h>
 #include <linux/version.h>
 #include <linux/kernel.h>
